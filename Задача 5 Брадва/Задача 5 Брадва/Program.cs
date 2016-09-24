@@ -54,7 +54,7 @@ namespace Задача_5_Брадва
             else
             {
                 Console.Write(new string('-', n * 3 ));
-                Console.Write(new string('*', n + 1));
+                Console.Write(new string('@', n + 1));
                 Console.WriteLine(new string('-', n - 1));
             }
         }
