@@ -13,7 +13,7 @@ namespace Задача_5_Брадва
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n ; i++)
             {
-                Console.Write(new string('-', n * 3));
+                Console.Write(new string('%', n * 3));
                 Console.Write('*');
                 for (int c = 0; c <= i - 1 ; c++)
                 {
